@@ -1,0 +1,76 @@
+@charset "utf-8"; 
+/*backgroud- color muda o fundo do site*/
+
+body
+
+{background-color:#181818;
+  
+  
+text-align: "left";
+margin: 0;}
+
+
+
+h1 {font-family: "Arial"  ;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #03071E;
+
+color: #FAFA1E; 
+
+background: hsla(60, 52%, 11%, 1);
+
+background: linear-gradient(90deg, hsla(60, 52%, 11%, 1) 8%, hsla(60, 50%, 8%, 1) 28%, hsla(0, 0%, 9%, 1) 57%, hsla(0, 0%, 9%, 1) 78%);
+
+background: -moz-linear-gradient(90deg, hsla(60, 52%, 11%, 1) 8%, hsla(60, 50%, 8%, 1) 28%, hsla(0, 0%, 9%, 1) 57%, hsla(0, 0%, 9%, 1) 78%);
+
+background: -webkit-linear-gradient(90deg, hsla(60, 52%, 11%, 1) 8%, hsla(60, 50%, 8%, 1) 28%, hsla(0, 0%, 9%, 1) 57%, hsla(0, 0%, 9%, 1) 78%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#29290D", endColorstr="#1E1E0A", GradientType=1 );
+  
+    font-size: 45px;}
+
+h2 {color:#5f04f1;}
+
+P {color: #FFFFFF;}
+
+/*Link não visitado */
+a:link { 
+  color: #FFFFFF;
+  text-decoration: yes;}
+    
+  /*Link already visited*/
+  a:visited { color:#FAFA1E;
+    text-decoration-line: yes;}
+    
+  /*Quando o mouse passa por cima*/
+  a:hover { color: #ff0e0e;
+    text-emphasis: yes;}
+  
+/*Link ativo/selecionado*/
+  a:active { color: rgb(6, 240, 189);
+    text-decoration: yes;}
+
+article { 
+   text-align: "center";
+   border-style: solid; 
+  border-color: #FAFA1E;
+  
+}
+
+
+  
+footer {
+  
+background: hsla(60, 52%, 11%, 1);
+
+background: linear-gradient(90deg, hsla(60, 52%, 11%, 1) 8%, hsla(60, 50%, 8%, 1) 28%, hsla(0, 0%, 9%, 1) 57%, hsla(0, 0%, 9%, 1) 78%);
+
+background: -moz-linear-gradient(90deg, hsla(60, 52%, 11%, 1) 8%, hsla(60, 50%, 8%, 1) 28%, hsla(0, 0%, 9%, 1) 57%, hsla(0, 0%, 9%, 1) 78%);
+
+background: -webkit-linear-gradient(90deg, hsla(60, 52%, 11%, 1) 8%, hsla(60, 50%, 8%, 1) 28%, hsla(0, 0%, 9%, 1) 57%, hsla(0, 0%, 9%, 1) 78%);
+
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#29290D", endColorstr="#1E1E0A", GradientType=1 );
+border-style: solid; 
+
+}
